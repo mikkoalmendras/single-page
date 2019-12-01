@@ -1,5 +1,4 @@
 html, body {
-    overflow: hidden;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -55,25 +54,6 @@ html, body {
 .left-context:hover{
     color: white;
 }
-.hover-left{
-    font-family: "Segoe UI", Arial, sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 80vh;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-}
-.hover-left-upper{
-    height: 15vh;
-}.hover-left-upper h1{
-    padding-top: 15px;
-    padding-left: 20px;
-}
-.hover-left-bottom{
-    margin-top: -20px;
-    height: 70vh;
-}
 .main-context {
     float: left;
     height: 100vh;
@@ -90,7 +70,7 @@ html, body {
     height: 280px;
     width: 280px;
     border-radius: 30%;
-    transform: translate(31.5%, 25%);
+    transform: translate(31.5%, 50%);
 }
 .main-content{
     padding-top: 15px;
@@ -113,24 +93,6 @@ html, body {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(4px);
     color: transparent;
-}
-.right-context:hover{
-    color: white;
-}
-.hover-right{
-    font-family: "Segoe UI", Arial, sans-serif;
-    text-decoration: none;
-    text-transform: uppercase;
-    height: 80vh;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-}
-#Message{
-    font-size: 40px;
-}
-.hover-right a{
-    font-size: 17px;
 }
 /**/
 #pop{
@@ -157,4 +119,40 @@ html, body {
 .right-context:hover{
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(0px);
+}
+
+/**/
+.portfolio-menu {
+    transform: translate(0%, 100%);
+    padding-top: 20px;
+    padding-bottom: -100px; 
+    height: 0vh;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .portfolio-menu ul {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+  
+  .portfolio-menu ul li {
+    margin-right: 34.3px;
+    list-style: none;
+  }
+  
+  .portfolio-menu .menu-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+.about-me{
+    height: 100vh;
+    background-color: red;
+}
+.contact-me{
+    height: 100vh;
+    background-color: blue;
 }
