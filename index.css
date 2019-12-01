@@ -191,6 +191,89 @@ html, body {
     font-size: 40px;
 }
 .contact-me{
+    padding-top: 1px;
     height: 100vh;
-    background-color: blue;
+    background: url(./room.jpg)center fixed;;
+    background-size: cover;
+}
+.contact-form{
+    height: 80vh;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.left-contact-form{
+    font-family: "Segoe UI", Arial, sans-serif;
+    float: left;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    color: white;
+    text-align: justify;
+}
+.left-contact-form i{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 35px;
+    box-shadow: 2px 2px 2px 2px black;
+    border-style: solid;
+    border-color: white;
+}
+.right-contact-form{
+    float: left;
+    display: flex;
+    height: 100%;
+    width: 50%;  
+}
+
+.formspree{
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin-top: 40px;
+    margin-left: 26.4px;
+    margin-right: 26.4px;
+    height: 70vh;
+    width: 79.5vh;
+    background-color: maroon;
+    box-shadow: 2px 2px 2px 2px black;
+    border-style: solid;
+    border-color: white;
+}
+
+.message{
+    color: white;
+    height: 7.4vh;
+    text-align: center;
+}
+.message a{
+    font-size: 30px;
+}
+.message-content{
+    height: 55vh;
+    text-align: justify;
+    padding-left: 35px;
+    color: white;
+}
+.message-content a{
+    font-size: 20px;
+}
+#one{
+    margin-left: 25px;
+    width: 260px;
+}
+#two{
+    margin-left: 30px;
+    width: 260px;
+}
+#three{
+    height:265px;
+    width: 260px;
+}
+.sponsor{
+    color: white;
+    height: 2.4vh;
+    text-align: center;
 }
